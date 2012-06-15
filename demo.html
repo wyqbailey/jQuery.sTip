@@ -1,0 +1,23 @@
+﻿<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>sTip demo</title>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+		<script type="text/javascript" src="jquery.sTip.js"></script>
+		<style type="text/css">
+			.succ{ background:#16960E; font-size:12px; padding:0 15px; color:#fff; line-height:1.8;}
+			.error{ background:#dd0000; font-size:12px; padding:0 15px; color:#fff; line-height:1.8;}
+			.warn{ background:#FAC42E ; font-size:12px; padding:0 15px; color:#fff; line-height:1.8;}
+		</style>
+		<script type="text/javascript">
+			$(function(){
+				$.sTip("加载成功");
+				$.sTip("右下角错误信息","error","right","bottom");
+				$.sTip("警告信息","warn","center","center",10);
+			});
+		</script>
+	</head>
+	<body>
+		
+	</body>
+</html>
